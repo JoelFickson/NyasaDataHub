@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  // Also lint root files like package.json, .eslintrc.js, etc.
+  "include": [
+    "@types",
+    "config",
+    "src",
+    "scripts",
+    "__mocks__",
+    "**/*.js",
+    "**/.*.js"
+  ]
+}
